@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <base href="%PUBLIC_URL%/"/>
+    <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon.png" />
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#383339" />
+    <meta name="author" content="Ultima Labs Pty Ltd">
+    <meta name="description" content="Ultima Labs Web Site" />
+    <meta property="og:url" content="%PUBLIC_URL%">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ultima Labs | Welcome" />
+    <meta property="og:description" content="We digitalize. We modernize. We transform. We innovate." />
+    <meta property="og:site_name" content="Ultima Labs Pty Ltd" />
+    <meta property="fb:admins" content="ultimalabs">
+    <meta property="fb:app_id" content="205895433992576" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@ultimalabs">
+    <meta name="twitter:creator" content="@wombatush">
+    <meta name="twitter:title" content="Ultima Labs | Welcome">
+    <meta name="twitter:description" content="Ultima Labs Web Site">
+  </head>
+</html>
