@@ -1,0 +1,8 @@
+plugins:
+  - jekyll-redirect-from
+
+redirect_from:
+    - /new/innovate
+    
+redirect_to:
+    - /new
