@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <title>Single Page Apps for GitHub Pages</title>
     <script type="text/javascript">
+      <meta property="og:url" content="%PUBLIC_URL%">
+        <meta property="og:type" content="website">
+          <meta property="og:title" content="Ultima Labs | The story of transform" />
+          <meta property="og:description" content="We transform." />
+          <meta property="og:site_name" content="Ultima Labs Pty Ltd" />
       // Single Page Apps for GitHub Pages
       // https://github.com/rafrex/spa-github-pages
       // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
@@ -27,7 +32,7 @@
 
       var l = window.location;
       l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '/new/') +
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
         l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
         l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
         (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
