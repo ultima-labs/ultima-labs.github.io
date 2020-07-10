@@ -1,1 +1,0 @@
-html-minifier --html5 --remove-comments --output index.html index-source.html
