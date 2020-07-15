@@ -41,8 +41,8 @@
       fbq('track', 'PageView');
     </script>
     <script type="text/javascript">
-      var segmentCount = 1; // Change to 0 for TLD
-      var l = window.location;
+      const segmentCount = 0;
+      const l = window.location;
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
         l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
@@ -54,7 +54,7 @@
   </head>
   <body>
   <noscript>
-    <img height="1" width="1" style="display:none"
+    <img height="1" width="1" style="display:none" alt="fb"
          src="https://www.facebook.com/tr?id=590405501850796&ev=PageView&noscript=1"/>
     <span>You need to enable JavaScript to run this app</span>
   </noscript>
